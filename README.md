@@ -1,12 +1,12 @@
-![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png)
+<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->
 
-[![Follow](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/DockerSlim)
-[![Gitter chat](https://badges.gitter.im/docker-slim/docker-slim.svg)](https://gitter.im/docker-slim/community)
-[![Discord chat](https://img.shields.io/static/v1.svg?label=chat&message=on%20discord&color=7389D8)](https://discord.gg/9tDyxYS)
+[![Follow](https://img.shields.io/badge/follow-on%20twitter-%231DA1F2.svg?style=for-the-badge&logoColor=white)](https://twitter.com/kcqon)
+
+[![Discord chat](https://img.shields.io/static/v1.svg?label=chat&message=on%20discord&color=7389D8&style=for-the-badge)](https://discord.gg/fAvq4ruKsG)
 
 # Overview
 
-`docker-slim` has been used with Node.js, Python, Ruby, Java, Go, Rust, Elixir and PHP (some app types) running on Ubuntu, Debian, CentOS and Alpine Linux.
+`mintoolkit` (aka `docker-slim` and `slimtoolkit`) has been used with Node.js, Python, Ruby, Java, Go, Rust, Elixir and PHP (some app types) running on Ubuntu, Debian, CentOS and Alpine Linux.
 
 Active areas of interest:
 * Complex Python, Ruby and PHP examples with the popular application servers and Nginx or Apache.
@@ -76,8 +76,8 @@ Elixir application images:
 
 # How to use examples
 
-While DockerSlim is capable of more, at the moment, the majority of the examples illustrate
-the image minification procedure using `docker-slim build` command in its various modes. 
+While **Mint** is capable of more, at the moment, the majority of the examples illustrate
+the image minification procedure using `mint build` command in its various modes. 
 
 A typical example has a _README_ file describing its purpose and basic usage.
 Normally, there is also a _Makefile_ with the `default` target. So, running
