@@ -1,6 +1,6 @@
 .DS_Store
 *.swp
-slim.report.json
+**/slim.report.json
 creport.json
 *-apparmor-profile
 *-seccomp-profile
