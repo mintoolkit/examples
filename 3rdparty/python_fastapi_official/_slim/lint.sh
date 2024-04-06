@@ -9,5 +9,5 @@ BDIR="$( cd -P "$( dirname "$SOURCE" )/.." && pwd )"
 pushd $BDIR
 source _slim.env
 
-slim lint Dockerfile
+mint lint Dockerfile
 popd

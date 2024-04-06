@@ -9,5 +9,5 @@ BDIR="$( cd -P "$( dirname "$SOURCE" )/.." && pwd )"
 pushd $BDIR
 source _slim.env
 
-docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock dslim/slim build dslimexamples/$IMAGE_NAME
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock mintoolkit/mint slim dslimexamples/$IMAGE_NAME
 popd

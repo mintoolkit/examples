@@ -9,5 +9,5 @@ BDIR="$( cd -P "$( dirname "$SOURCE" )/.." && pwd )"
 pushd $BDIR
 source _slim.env
 
-slim build --copy-meta-artifacts . dslimexamples/$IMAGE_NAME
+mint slim --copy-meta-artifacts . dslimexamples/$IMAGE_NAME
 popd

@@ -9,5 +9,5 @@ BDIR="$( cd -P "$( dirname "$SOURCE" )/.." && pwd )"
 pushd $BDIR
 source _slim.env
 
-slim --debug build --show-clogs dslimexamples/$IMAGE_NAME
+mint --debug slim --show-clogs dslimexamples/$IMAGE_NAME
 popd

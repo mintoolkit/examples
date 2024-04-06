@@ -9,5 +9,5 @@ BDIR="$( cd -P "$( dirname "$SOURCE" )/.." && pwd )"
 pushd $BDIR
 source _slim.env
 
-slim xray dslimexamples/$IMAGE_NAME
+mint xray dslimexamples/$IMAGE_NAME
 popd

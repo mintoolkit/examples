@@ -9,5 +9,5 @@ BDIR="$( cd -P "$( dirname "$SOURCE" )/.." && pwd )"
 pushd $BDIR
 source _slim.env
 
-slim build --dockerfile Dockerfile --tag-fat dslimexamples/$IMAGE_NAME .
+mint slim --dockerfile Dockerfile --tag-fat dslimexamples/$IMAGE_NAME .
 popd
