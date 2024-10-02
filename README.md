@@ -84,7 +84,7 @@ Elixir application images:
 # How to use examples
 
 While **Mint** is capable of more, at the moment, the majority of the examples illustrate
-the image minification procedure using `mint build` command in its various modes. 
+the image minification procedure using `mint build` (aka `mint slim`) command in its various modes. 
 
 A typical example has a _README_ file describing its purpose and basic usage.
 Normally, there is also a _Makefile_ with the `default` target. So, running
