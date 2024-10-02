@@ -4,6 +4,13 @@
 
 [![Discord chat](https://img.shields.io/static/v1.svg?label=chat&message=on%20discord&color=7389D8&style=for-the-badge)](https://discord.gg/fAvq4ruKsG)
 
+# TLDR
+
+* Install MinToolkit (aka DockerSlim): https://github.com/mintoolkit/mint#installation
+* Shrink your container image: `mint slim your-container-image`
+
+Note: you may need additional CLI flags. See the examples in this repo and the README in the app repo: https://github.com/mintoolkit/mint
+
 # Overview
 
 `mintoolkit` (aka `docker-slim` and `slimtoolkit`) has been used with Node.js, Python, Ruby, Java, Go, Rust, Elixir and PHP (some app types) running on Ubuntu, Debian, CentOS and Alpine Linux.
